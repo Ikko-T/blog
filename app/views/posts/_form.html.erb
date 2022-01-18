@@ -1,0 +1,17 @@
+<div class="section">
+  <%= simple_form_for @post do |f| %>
+  <div class="field">
+    <div class="control">
+      <%= f.input :title, input_html: { class: 'input', maxlength: 50 }, wrapper: false, label_html: { class: 'label'},
+      label: 'タイトル' %>
+    </div>
+  </div>
+  <div class="field">
+    <div class="control">
+      <%= f.input :content, input_html: { class: 'textarea', maxlength: 3000 }, wrapper: false, label_html: { class:
+      'label'}, label: '内容' %>
+    </div>
+  </div>
+  <%= f.button :submit, class: "button is-info is-light is-normal is-fullwidth" %>
+  <% end %>
+</div>
