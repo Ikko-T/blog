@@ -10,7 +10,7 @@ This is a basic blog with comments built with Ruby on Rails. Each blog post will
 
 # Demo
 
-![Screenshot](./blog-flow.gif)
+![Screenshot](./blog.gif)
 
 # Requirement
 
