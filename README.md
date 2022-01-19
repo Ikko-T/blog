@@ -10,6 +10,8 @@ This is a basic blog with comments built with Ruby on Rails. Each blog post will
 
 # Demo
 
+- https://simple-blog-production.herokuapp.com/
+
 ![Screenshot](./blog.gif)
 
 # Requirement
