@@ -12,15 +12,17 @@
     </div>
     <div class="level-right">
       <p class="level-item">
-        <%= link_to "編集", edit_post_path(@post), class: "button" %>
+        <%= link_to "編集", edit_post_path(@post), class: "button is-primary is-light" %>
       </p>
       <p class="level-item">
-        <%= link_to "削除", post_path(@post), method: :delete, data: { confirm: "削除してもよろしいですか？" }, class: "button is-danger" %>
+        <%= link_to "削除", post_path(@post), method: :delete, data: { confirm: "削除してもよろしいですか？" }, class: "button is-danger is-light" %>
       </p>
     </div>
   </div>
 </section>
+
 <hr>
+
 <section class="section comments">
   <div class="container">
     <h2 class="subtitle is -5"><strong><%= @post.comments.count %></strong> 件のコメント</h2>
