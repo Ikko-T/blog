@@ -19,7 +19,7 @@
             <p class="has-text-grey"><%= l post.created_at, format: :short %></p>
           </div>
           <div class="comment-count">
-            <span class="tag is-rounded"><%# comment count %></span>
+            <span class="tag is-rounded"><%= post.comments.count %> コメント</span>
           </div>
         </div>
       </div>

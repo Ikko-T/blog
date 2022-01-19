@@ -2,12 +2,9 @@
 <html>
   <head>
     <title>Simple Blog</title>
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <%= csrf_meta_tags %>
-    <%= csp_meta_tag %>
-
-    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <%= csrf_meta_tags %> <%= csp_meta_tag %> <%= stylesheet_link_tag 'application', media: 'all',
+    'data-turbolinks-track': 'reload' %> <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
   <body>
@@ -24,9 +21,7 @@
               </span>
             </div>
             <div id="navbarMenuHeroB" class="navbar-menu">
-              <div class="navbar-end">
-                <%= link_to "ブログ作成", new_post_path, class: "navbar-item" %>
-              </div>
+              <div class="navbar-end"><%= link_to "ブログを作成する", new_post_path, class: "navbar-item" %></div>
             </div>
           </div>
         </nav>
@@ -34,9 +29,7 @@
 
       <div class="hero-body">
         <div class="container has-text-centered">
-          <h2 class="title">
-            <%= yield :page_title %>
-          </h2>
+          <h2 class="title"><%= yield :page_title %></h2>
         </div>
       </div>
     </section>
