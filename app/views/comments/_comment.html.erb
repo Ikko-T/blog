@@ -1,0 +1,16 @@
+<div class="box">
+  <article class="media">
+    <div class="media-content">
+      <div class="content">
+        <p>
+          <strong><%= comment.name %>:</strong>
+          <%= l comment.created_at, format: :short %>
+        </p>
+        <p>
+          <%= comment.remark %>
+        </p>
+      </div>
+    </div>
+    <%= link_to '削除', [comment.post, comment], method: :delete, class: "button is-danger", data: { confirm: "削除してもよろしいですか？" } %>
+  </article>
+</div>
