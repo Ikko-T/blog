@@ -1,8 +1,14 @@
+![app-shield]
+![purpose-shield]
+![title-shield]
+
 # Name
 
 ## Simple Blog
 
 Anyone can freely post a blog and make a comment on blogs posted by others.
+
+- [Simple Blog][project-url]
 
 # Description
 
@@ -34,3 +40,10 @@ This is a basic blog with comments built with Ruby on Rails. Each blog post will
 # ER Diagram
 
 ![ER Diagram](./blog.svg)
+
+<!--MARKDOWN LINKS & IMAGES -->
+
+[app-shield]: https://img.shields.io/badge/APP-1%20%2F%2020-orange
+[title-shield]: https://img.shields.io/badge/PROJECT%20TITLE-Blog-green
+[purpose-shield]: https://img.shields.io/badge/PURPOSE-Coding%20Challenge%20Websites-blue
+[project-url]: https://simple-blog-production.herokuapp.com/
