@@ -16,15 +16,15 @@ This is a basic blog with comments built with Ruby on Rails. Each blog post will
 
 # Demo
 
-- https://simple-blog-production.herokuapp.com/
+- https://lionfish-app-o6e4q.ondigitalocean.app/
 
 ![Screenshot](./blog.gif)
 
 # Requirement
 
-- Ruby 2.6.6
+- Ruby 3.1.4
 - Rails 6.1.4.4
-- PostgreSQL 14.1
+- PostgreSQL 14.9
 - HTML 5.1
 - CSS (Bulma - CSS framework)
 
@@ -46,4 +46,4 @@ This is a basic blog with comments built with Ruby on Rails. Each blog post will
 [app-shield]: https://img.shields.io/badge/APP-1%20%2F%2020-orange
 [title-shield]: https://img.shields.io/badge/PROJECT%20TITLE-Blog-green
 [purpose-shield]: https://img.shields.io/badge/PURPOSE-Coding%20Challenge%20Websites-blue
-[project-url]: https://simple-blog-production.herokuapp.com/
+[project-url]: https://lionfish-app-o6e4q.ondigitalocean.app/
