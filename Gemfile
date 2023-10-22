@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby '2.6.6'
+ruby '3.1.4'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails', branch: 'main'
 gem 'rails', '~> 6.1.4', '>= 6.1.4.4'
@@ -33,6 +33,10 @@ gem 'bulma-rails', '~> 0.9.2'
 
 # Forms made easy!
 gem 'simple_form', '~> 5.1'
+
+gem 'net-imap'
+gem 'net-smtp'
+gem 'net-pop'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
