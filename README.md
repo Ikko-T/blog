@@ -16,7 +16,7 @@ This is a basic blog with comments built with Ruby on Rails. Each blog post will
 
 # Demo
 
-- https://lionfish-app-o6e4q.ondigitalocean.app/
+- https://blog-ndph4.ondigitalocean.app/
 
 ![Screenshot](./blog.gif)
 
@@ -46,4 +46,4 @@ This is a basic blog with comments built with Ruby on Rails. Each blog post will
 [app-shield]: https://img.shields.io/badge/APP-1%20%2F%2020-orange
 [title-shield]: https://img.shields.io/badge/PROJECT%20TITLE-Blog-green
 [purpose-shield]: https://img.shields.io/badge/PURPOSE-Coding%20Challenge%20Websites-blue
-[project-url]: https://lionfish-app-o6e4q.ondigitalocean.app/
+[project-url]: https://blog-ndph4.ondigitalocean.app/
