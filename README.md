@@ -46,4 +46,4 @@ This is a basic blog with comments built with Ruby on Rails. Each blog post will
 [app-shield]: https://img.shields.io/badge/APP-1%20%2F%2020-orange
 [title-shield]: https://img.shields.io/badge/PROJECT%20TITLE-Blog-green
 [purpose-shield]: https://img.shields.io/badge/PURPOSE-Coding%20Challenge%20Websites-blue
-[project-url]: https://blog-ndph4.ondigitalocean.app/
+[project-url]: https://goldfish-app-iv8bq.ondigitalocean.app/
