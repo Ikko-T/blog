@@ -15,9 +15,10 @@
             <div class="navbar-brand">
               <%= link_to "Simple Blog", root_path, class: "navbar-item title is-1" %>
               <span class="navbar-burger" data-target="navbarMenuHeroB">
+                <%# <span></span>
                 <span></span>
-                <span></span>
-                <span></span>
+                <span></span> %>
+                <%= link_to "ブログ作成", new_post_path, class: "navbar-item" %>
               </span>
             </div>
             <div id="navbarMenuHeroB" class="navbar-menu">
